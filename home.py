@@ -24,7 +24,7 @@ def home():
 
     
     # Top title
-    st.write(f"""<div class="title"><strong>Bonjour! Je m'appelle </strong> Abdoulaye Tangara👋</div>""", unsafe_allow_html=True)
+    st.write(f"""<div class="title"><strong>Hello ! Je m'appelle </strong> Abdoulaye Tangara👋</div>""", unsafe_allow_html=True)
 
     # Profile image
     st.write(f"""
