@@ -56,7 +56,7 @@ def home():
     social_icons_data = {
         # Platform: [URL, Icon]
         "LinkedIn": ["https://www.linkedin.com/in/abdoulaye-tangara-9219a2293/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
-        "GitHub": ["https://github.com/Tangara7222", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
+        "GitHub": ["https://github.com/ABLO1234", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
         "Email": ["mailto:abdoulayetangara722@gmail.com", "https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png"]
     }
 
