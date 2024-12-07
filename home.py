@@ -75,7 +75,7 @@ def home():
     st.write("""
     - 🧑‍💻 Je suis **Statisticien et Economiste option : Ingéniérie Financière** et actuellement Mastérant en **Economie Quantitative & Calculable** 
 
-    - ❤️ Je suis très passioné par le **Machine Learning, Data,  Optimisation, Automation ainsi que leur application dans l'économie et dans la finance**, et plus!
+    - ❤️ Je suis très passioné par le **Machine Learning, Data,  Optimisation, Automatisation ainsi que leur application dans l'économie et dans la finance**, et plus!
                  
     - 🏂 J'aime jouer aux échecs, lire et surtout la musique 🧗
     
