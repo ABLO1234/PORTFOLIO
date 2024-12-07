@@ -76,9 +76,7 @@ def home():
     - 🧑‍💻 Je suis **Statisticien et Economiste option : Ingéniérie Financière** et actuellement Mastérant en **Economie Quantitative & Calculable** 
 
     - ❤️ Je suis très passioné par le **Machine Learning, Data,  Optimisation, Automation ainsi que leur application dans l'économie et dans la finance**, et plus!
-    
-    - 🛩️ Mes projets :
-             
+                 
     - 🏂 J'aime jouer aux échecs, lire et surtout la musique 🧗
     
     - 📫 Comment me joindre ? : +22372228699 / Par mon adrresse Email ci-dessus
@@ -108,10 +106,10 @@ def home():
         st.subheader("1-    **Optimisation de portefeuille d'investissement (Projet en cours)**")
         st.write(""" 
                  **Description** : 
-                 Il s'agit application de techniques de machine learning à la finance.
-                 L'objectif du projet c'est de mettre mettre à la disposition des investisseurs une application web
-                 leurs permets, contenus des caractéristiques de leurs portefeuille d'investissement, d'optimiser ce portefeuille en
-                 minimisant leur risque et en maximisant leur gain. 
+                 Il s'agit de l'application de techniques de machine learning à la finance.
+                L'objectif du projet est de développer une application web destinée aux investisseurs, leur permettant, 
+                à partir des caractéristiques de leur portefeuille, d'optimiser ce dernier en minimisant les risques tout en maximisant les gains. 
+                
                  """)
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
