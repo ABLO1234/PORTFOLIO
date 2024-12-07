@@ -84,6 +84,7 @@ def home():
     - 🏠 Mali, Bamako
     """)
 
+st.write("**Mon CV 😊**")
     # Download CV button
     st.download_button(
         label="📄 Vous pouvez télécharger mon CV",
