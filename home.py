@@ -57,7 +57,7 @@ def home():
         # Platform: [URL, Icon]
         "LinkedIn": ["https://www.linkedin.com/in/abdoulaye-tangara-9219a2293/", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
         "GitHub": ["https://github.com/Tangara7222", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
-        "Email": ["abdoulayetangara722@gmail.com", "https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png"]
+        "Email": ["mailto:abdoulayetangara722@gmail.com", "https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png"]
     }
 
     social_icons_html = [f"<a href='{social_icons_data[platform][0]}' target='_blank' style='margin-right: 10px;'><img class='social-icon' src='{social_icons_data[platform][1]}' alt='{platform}'></a>" for platform in social_icons_data]
