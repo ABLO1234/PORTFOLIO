@@ -83,7 +83,27 @@ def home():
     
     - 🏠 Mali, Bamako
     """)
-
+    st.subheader("Mes compétences")
+    st.write("""
+    **Logiciel**
+        - IBM SPSS
+        - Power Query
+        - pgAdmin4 (PostGreSql)
+        - STATA
+        - EVIEWS
+        - CSPro
+        - KOBOTOOLBOX
+        - NestarPublisher
+        - Jupyter NoteBook
+        - VS code
+    **Langage de programmation**
+        - Python
+        - SQL
+        - STATA
+        - EVIEWS
+        - R
+        - SPSS LANGUAGE
+    """)
     st.write("**Mon CV 😊**")
 
     # Download CV button
