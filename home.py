@@ -87,7 +87,7 @@ def home():
     
     st.subheader("**Mes compétences**")
     
-    st.subheader("**Logiciel**)
+    st.subheader("**Logiciel**")
     st.write("""
         - IBM SPSS
         - Power Query
