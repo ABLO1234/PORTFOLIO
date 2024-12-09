@@ -100,7 +100,7 @@ def home():
         - Jupyter NoteBook
         - VS code """)
         
-    st.suheader(**Langage de programmation**)
+    st.suheader("**Langage de programmation**")
     st.write("""
         - Python
         - SQL
