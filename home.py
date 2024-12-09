@@ -71,7 +71,7 @@ def home():
     st.write("##")
 
     # About me section
-    st.subheader("À propos de moi")
+    st.subheader("**À propos de moi**")
     st.write("""
     - 🧑‍💻 Je suis **Statisticien et Economiste option : Ingéniérie Financière** et actuellement Mastérant en **Economie Quantitative & Calculable** 
 
@@ -84,10 +84,11 @@ def home():
     - 🏠 Mali, Bamako
     """)
     st.write("--")
-    st.subheader("Mes compétences")
-    st.write("""
     
-    **Logiciel**
+    st.subheader("**Mes compétences**")
+    
+    st.subheader("**Logiciel**)
+    st.write("""
         - IBM SPSS
         - Power Query
         - pgAdmin4 (PostGreSql)
@@ -97,10 +98,10 @@ def home():
         - KOBOTOOLBOX
         - NestarPublisher
         - Jupyter NoteBook
-        - VS code
-
+        - VS code """)
         
-    **Langage de programmation**
+    st.suheader(**Langage de programmation**)
+    st.write("""
         - Python
         - SQL
         - STATA
