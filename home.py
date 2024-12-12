@@ -134,7 +134,7 @@ def home():
 
 
     with tabs[0]:
-        st.subheader("1-    **Optimisation de portefeuille d'investissement (Projet en cours)**")
+        st.subheader("1-  ###  **Optimisation de portefeuille d'investissement (Projet en cours)**")
         st.write(""" 
                  **Description** : 
                  Il s'agit de l'application de techniques de machine learning à la finance.
@@ -145,36 +145,36 @@ def home():
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
 
-        st.subheader("**2-  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
+        st.subheader("**2- ###  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
         st.write(""" 
-                 **Description** : 
+             🚗 **Description** : 
 
 Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
-L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
+🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
-**Objectif du projet**  
+🎯**Objectif du projet**  
 
 L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
-**Quest-ce que le **KNN ou k-plus proches voisins**
+🤖**Quest-ce que le **KNN ou k-plus proches voisins****
 
 Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
 L'idée principale de ce modèle est que pour une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
 La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix), le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
 Et une tâche de classification (comme déterminer un type), il assigne la classe majoritaire parmi les k voisins.
 
-**Les avantages de ce modèle**
+✨**Les avantages de ce modèle**
 
-- **Facilité d’implémentation** : KNN est simple à configurer.  
-- **Non-paramétrique** : Pas besoin de supposer une forme spécifique pour la distribution des données.  
-- **Flexibilité** : Gère bien les données avec des relations complexes entre les variables.  
+- 📈 Facilité d’implémentation : Simple à configurer.
+- 🛠️ Non-paramétrique : Pas besoin de supposer une forme spécifique pour les données.
+- 🌐 Flexibilité : Gère les relations complexes entre variables.
 
-**Limitations potentielles**  
-- **Sensibilité à l’échelle des données** : Nécessite une normalisation appropriée.  
-- **Complexité en temps** : Pour de grands ensembles de données, la recherche des *k* voisins peut être coûteuse.  
-- **Sensibilité au bruit** : Les observations bruitées peuvent fausser les prédictions.  
+⚠️**Limitations potentielles**  
+- 📏 Sensibilité à l’échelle : Exige une normalisation des données.
+- ⏳ Temps de calcul élevé : Recherche des voisins coûteuse pour de grands ensembles de données.
+- 🔊 Sensibilité au bruit : Les données bruitées peuvent affecter les prédictions.
 
-**Pourquoi le modèle KNN est adapté pour ce projet?**  
+💡**Pourquoi le modèle KNN est adapté pour ce projet?**  
 
 Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une voiture pour plusieurs raisons :  
 
@@ -193,31 +193,31 @@ Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une v
 5. **Facilité de mise en œuvre** :  
    Le KNN est facile à configurer et ne nécessite pas d'entraînement complexe, ce qui le rend efficace pour des projets de prédiction simples.  
 
-**Outils et technologies utilisés**  
-- **Python** : Langage principal.
-- **Bibliothèques** : 
+🔧 **Outils et technologies utilisés**  
+-🐍 **Python** : Langage principal.
+-📚 **Bibliothèques** : 
   - `scikit-learn` pour l’implémentation de KNN.
   - `pandas` et `numpy` pour la manipulation des données.
   - `matplotlib` et `seaborn` pour les visualisations.  
 
-**Résultat attendu**  
+📌 **Résultat attendu**  
 
 **Résultats fonctionnels :**  
-a. **Prédictions précises :**  
+a.✅ **Prédictions précises :**  
    - Fournir une estimation fiable du prix des voitures en fonction de leurs caractéristiques.  
    - Réduire l’erreur entre les prix prédits et les prix réels, mesurée par des métriques comme l’erreur quadratique moyenne (**RMSE**) ou le coefficient de détermination (**R²**).  
 
-b. **Application interactive :**  
+b.💻 **Application interactive :**  
    - Une interface conviviale où les utilisateurs peuvent entrer les caractéristiques d’une voiture et obtenir une estimation instantanée du prix.  
 
-c. **Personnalisation :**  
+c.⚙️ **Personnalisation :**  
    - Capacité d’ajuster certains paramètres (par exemple, le nombre de voisins *k*) ou d’explorer les données utilisées pour les prédictions.  
 
 **Impact pratique :**  
-a. **Prise de décision facilitée :**  
+a.💼 **Prise de décision facilitée :**  
    - Aider les particuliers et les professionnels (vendeurs, acheteurs, concessionnaires) à évaluer rapidement et précisément la valeur d’un véhicule.  
 
-b. **Transparence :**  
+b.🔍 **Transparence :**  
    - Mettre en avant les voisins considérés pour chaque prédiction, offrant une compréhension claire de l’estimation.  
 
 **Indicateurs de succès :**  
@@ -227,13 +227,13 @@ a. **Précision :**
 b. **Utilisabilité :**  
    - Temps de réponse rapide et facilité d’utilisation de l’application web streamlit.  
 
-**Valeur ajoutée globale :**  
+🌟**Valeur ajoutée globale :**  
 Un système performant et intuitif qui combine la puissance d’un modèle d’IA avec une accessibilité pratique pour répondre à des besoins concrets dans le domaine automobile.                 """)
         st.image("https://blog.vivacar.fr/wp-content/uploads/2017/03/estimer-prix-voiture.webp")
 
         st.write("---")
         
-        st.subheader("**Crédit Scoring avec Régression Logistique et Arbre de Décision**")
+        st.subheader("**3- Crédit Scoring avec Régression Logistique et Arbre de Décision**")
 
         st.write("""
         Ce projet vise à développer un système de **crédit scoring** pour évaluer la probabilité qu’un client rembourse ou non son crédit, en utilisant deux modèles de machine learning : la **régression logistique** et l’**arbre de décision**.
