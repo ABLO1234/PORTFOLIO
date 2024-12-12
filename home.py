@@ -152,29 +152,28 @@ def home():
 Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
 🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
-🎯**Objectif du projet**  
-
+            🎯**Objectif du projet**  
 L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
-🤖**Quest-ce que le **KNN ou k-plus proches voisins****
+            🤖**Quest-ce que le **KNN ou k-plus proches voisins****
 
 Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
 L'idée principale de ce modèle est que pour une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
 La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix), le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
 Et une tâche de classification (comme déterminer un type), il assigne la classe majoritaire parmi les k voisins.
 
-✨**Les avantages de ce modèle**
+            ✨**Les avantages de ce modèle**
 
 - 📈 Facilité d’implémentation : Simple à configurer.
 - 🛠️ Non-paramétrique : Pas besoin de supposer une forme spécifique pour les données.
 - 🌐 Flexibilité : Gère les relations complexes entre variables.
 
-⚠️**Limitations potentielles**  
+            ⚠️**Limitations potentielles**  
 - 📏 Sensibilité à l’échelle : Exige une normalisation des données.
 - ⏳ Temps de calcul élevé : Recherche des voisins coûteuse pour de grands ensembles de données.
 - 🔊 Sensibilité au bruit : Les données bruitées peuvent affecter les prédictions.
 
-💡**Pourquoi le modèle KNN est adapté pour ce projet?**  
+            💡**Pourquoi le modèle KNN est adapté pour ce projet?**  
 
 Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une voiture pour plusieurs raisons :  
 
