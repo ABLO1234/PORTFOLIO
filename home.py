@@ -115,7 +115,6 @@ def home():
         - R
         - SPSS LANGUAGE
     """)
-
     
     st.write("**Mon CV 😊**")
 
@@ -147,7 +146,7 @@ def home():
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
 
-        st.subheader("**2-  Prédiction du prix d'une voiture avec un modèle KNN**")
+        st.subheader("**2-  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
         st.write(""" 
                  **Description** : 
 
@@ -203,8 +202,34 @@ Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une v
   - `matplotlib` et `seaborn` pour les visualisations.  
 
 ### **Résultat attendu**  
-Un modèle capable de fournir des prédictions précises et fiables sur le prix des voitures, et un tableau de bord interactif (optionnel avec **Streamlit**) pour visualiser les prédictions et explorer les données.
-                 """)
+
+### **Résultats fonctionnels :**  
+a. **Prédictions précises :**  
+   - Fournir une estimation fiable du prix des voitures en fonction de leurs caractéristiques.  
+   - Réduire l’erreur entre les prix prédits et les prix réels, mesurée par des métriques comme l’erreur quadratique moyenne (**RMSE**) ou le coefficient de détermination (**R²**).  
+
+b. **Application interactive :**  
+   - Une interface conviviale où les utilisateurs peuvent entrer les caractéristiques d’une voiture et obtenir une estimation instantanée du prix.  
+
+c. **Personnalisation :**  
+   - Capacité d’ajuster certains paramètres (par exemple, le nombre de voisins *k*) ou d’explorer les données utilisées pour les prédictions.  
+
+### **Impact pratique :**  
+a. **Prise de décision facilitée :**  
+   - Aider les particuliers et les professionnels (vendeurs, acheteurs, concessionnaires) à évaluer rapidement et précisément la valeur d’un véhicule.  
+
+b. **Transparence :**  
+   - Mettre en avant les voisins considérés pour chaque prédiction, offrant une compréhension claire de l’estimation.  
+
+### **Indicateurs de succès :**  
+a. **Précision :**  
+   - Une **RMSE** faible et un score **R²** élevé sur l’ensemble de test.  
+
+b. **Utilisabilité :**  
+   - Temps de réponse rapide et facilité d’utilisation de l’application web.  
+
+### **Valeur ajoutée globale :**  
+Un système performant et intuitif qui combine la puissance d’un modèle d’IA avec une accessibilité pratique pour répondre à des besoins concrets dans le domaine automobile.                 """)
         st.image("https://blog.vivacar.fr/wp-content/uploads/2017/03/estimer-prix-voiture.webp")
 
         st.write("---")
