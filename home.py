@@ -95,9 +95,9 @@ def home():
     st.write("""
     Je suis passionné par la transformation de données brutes en informations stratégiques. Grâce à une approche rigoureuse et scientifique, je maîtrise l'ensemble du cycle d'analyse de données à savoir :  
 
-        - **Préparation des données** : Nettoyage et structuration de données imparfaites et/ou complexes pour en garantir la qualité et la fiabilité.  
-        - **Analyse et exploration** : Identification des tendances, des schémas et des insights clés à travers des outils statistiques avancés et des techniques de visualisation.  
-        - **Modélisation** : Développement de modèles de machine learning adaptés à divers domaines (finance, marketing, énergie, etc.), en optimisant les performances pour répondre à des problématiques spécifiques.  
+    - **Préparation des données** : Nettoyage et structuration de données imparfaites et/ou complexes pour en garantir la qualité et la fiabilité.  
+    - **Analyse et exploration** : Identification des tendances, des schémas et des insights clés à travers des outils statistiques avancés et des techniques de visualisation.  
+    - **Modélisation** : Développement de modèles de machine learning adaptés à divers domaines (finance, marketing, énergie, etc.), en optimisant les performances pour répondre à des problématiques spécifiques.  
 
     Je suis également compétent dans la conduite d’enquêtes et d’études scientifiques, en assurant leur conception méthodologique, leur réalisation sur le terrain et leur analyse approfondie. Ces capacités me permettent de proposer des solutions basées sur des données concrètes et d'apporter une valeur ajoutée stratégique aux projets sur lesquels je travaille.  
 
