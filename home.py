@@ -73,11 +73,11 @@ def home():
     # About me section
     st.subheader("**À propos de moi**")
     st.write("""
-    - 🧑‍💻 Je suis étudiant en Master en Economie Quantitative et & Calculable. 
+    - 🧑‍💻 Je suis étudiant en **Master en Economie Quantitative et Calculable**. 
     
-    Ce programme de Master combine des connaissances approfondies en théorie économique avec des compétences avancées en modélisation quantitative et calcul informatique.
-    Il me permettra de développer des compétences solides en microéconomie, macroéconomie, économétrie, statistiques, optimisation, et programmation (Python, R, STATA, EVIEWS). 
-    j'y apprends à construire, estimer et simuler des modèles économiques en s’appuyant sur des techniques telles que l’analyse de séries temporelles, les méthodes bayésiennes, ou encore le machine learning.
+        Ce programme de Master combine des connaissances approfondies en théorie économique avec des compétences avancées en modélisation quantitative et calcul informatique.
+        Il me permettra de développer des compétences solides en microéconomie, macroéconomie, économétrie, statistiques, optimisation, et programmation (Python, R, STATA, EVIEWS). 
+        j'y apprends à construire, estimer et simuler des modèles économiques en s’appuyant sur des techniques telles que l’analyse de séries temporelles, les méthodes bayésiennes, ou encore le machine learning.
     
     - ❤️ Je suis très passioné par le **Machine Learning, Data,  Optimisation, Automatisation ainsi que leur application dans l'économie et dans la finance**, et plus!
                  
