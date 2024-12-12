@@ -7,7 +7,7 @@ def home():
     # Page configs (tab title, favicon)
     st.set_page_config(
         page_title="Le portfolio d'Abdoulaye Tangara",
-        page_icon="🍕",
+        page_icon="💼",
     )
 
     # CSS styles file
@@ -134,7 +134,7 @@ def home():
 
 
     with tabs[0]:
-        st.subheader("1-  ###  **Optimisation de portefeuille d'investissement (Projet en cours)**")
+        st.subheader("### 1-  **Optimisation de portefeuille d'investissement (Projet en cours)**")
         st.write(""" 
                  **Description** : 
                  Il s'agit de l'application de techniques de machine learning à la finance.
@@ -145,7 +145,7 @@ def home():
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
 
-        st.subheader("**2- ###  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
+        st.subheader(" ### **2-  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
         st.write(""" 
              🚗 **Description** : 
 
@@ -233,70 +233,38 @@ Un système performant et intuitif qui combine la puissance d’un modèle d’I
 
         st.write("---")
         
-        st.subheader("**3- Crédit Scoring avec Régression Logistique et Arbre de Décision**")
+        st.subheader("**3-  Crédit Scoring avec Régression Logistique et Arbre de Décision**")
 
         st.write("""
         Ce projet vise à développer un système de **crédit scoring** pour évaluer la probabilité qu’un client rembourse ou non son crédit, en utilisant deux modèles de machine learning : la **régression logistique** et l’**arbre de décision**.
 
-
-        ### **Objectif du projet**  
+        🎯 **Objectif du projet**  
         Fournir un outil fiable qui aide les institutions financières à prendre des décisions éclairées sur l'octroi de crédits, en classant les clients en deux catégories :  
         1. *Solvables* (remboursement probable).  
         2. *Non solvables* (risque de défaut).
 
-        ### **Étapes clés**  
+🤖 **Modèles utilisés : Logistique & Arbre de décision**
 
-        #### 1. **Collecte des données**  
-        - Sources potentielles :  
-        - Datasets publics comme *Credit Default Dataset* ou *Home Credit Default Risk*.  
-        - Données réelles des institutions financières.  
-        - Variables utilisées :  
-        - **Caractéristiques** (*inputs*) : âge, sexe, statut matrimonial, revenu mensuel, montant du crédit, historique de crédit, ratio dette/revenu, etc.  
-        - **Cible** (*output*) : Classe binaire (0 : remboursé, 1 : défaut).
+**Régression logistique**
+- Principe :
+           Modèle statistique qui prédit la probabilité d’appartenance à une classe (0 ou 1) en utilisant une fonction logistique.
+- Avantages :
+           Interprétabilité des coefficients (chaque variable montre son effet sur la probabilité de défaut). Performant pour des relations linéaires entre les caractéristiques et la cible.
+- Limites :
+Sensibilité aux valeurs extrêmes.
+Nécessite des données bien préparées et standardisées.
 
-        #### 2. **Exploration et préparation des données**  
-        - Nettoyage des données :  
-        - Gestion des valeurs manquantes et outliers.  
-        - Encodage des variables catégorielles (par exemple, *sexe*, *statut matrimonial*).  
-        - Transformation des données :  
-        - Standardisation pour la régression logistique (centrage et réduction des variables).  
-        - Préparation des données catégorielles pour l’arbre de décision.  
-        - Gestion des classes déséquilibrées :  
-        - Utilisation de techniques comme **SMOTE** ou pondération des classes.
+**Arbre de décision**
+- Principe :
+          Modèle basé sur une structure arborescente qui applique des règles décisionnelles simples pour classer les données.
+- Avantages :
+Facile à interpréter grâce à des visualisations (par ex., seuils de revenu ou ratio dette/revenu). Capte les relations non linéaires et les interactions entre les variables.
+- Limites :
+Peut sur-apprendre si non régularisé.
+Sensible aux données bruitées.
 
-        #### 3. **Division des données**  
-        - Division en ensembles d'entraînement (70-80%) et de test (20-30%).  
 
-        #### 4. **Modélisation**  
-        **Régression logistique** :  
-        - Modèle statistique qui estime la probabilité d’appartenance à une classe en fonction d’une fonction logistique.  
-        - Analyse des coefficients pour comprendre l’influence de chaque caractéristique sur la probabilité de défaut.  
-
-        **Arbre de décision** :  
-        - Modèle basé sur une structure arborescente pour classer les clients en fonction de règles décisionnelles.  
-        - Facile à interpréter, avec des visualisations montrant les critères de décision (par exemple, seuils de revenu ou d’endettement).  
-
-        #### 5. **Évaluation des modèles**  
-        - Métriques utilisées :  
-        - **Accuracy** : Précision globale.  
-        - **Précision et rappel** : Évaluer les performances sur la classe "défaut".  
-        - **AUC-ROC** : Comparer les capacités discriminatoires des deux modèles.  
-        - Comparaison des performances pour choisir le modèle le plus adapté.  
-
-        #### 6. **Prédiction et interprétation**  
-        - Génération de prédictions pour de nouveaux clients.  
-        - Analyse des erreurs (faux positifs et faux négatifs).  
-
-        ### **Avantages des modèles utilisés**  
-        **Régression logistique** :  
-        - Facile à interpréter.  
-        - Performant pour des relations linéaires entre les variables et la cible.  
-
-        **Arbre de décision** :  
-        - Compréhensible pour les non-experts grâce aux visualisations.  
-        - Capture les relations non linéaires et les interactions entre variables.  
-
-        ### **Outils et technologies utilisés**  
+        🔧 **Outils et technologies utilisés**  
         - **Python** : Langage principal.  
         - Bibliothèques :  
         - `pandas` et `numpy` pour la manipulation des données.  
@@ -304,10 +272,23 @@ Un système performant et intuitif qui combine la puissance d’un modèle d’I
         - `matplotlib` et `seaborn` pour les visualisations.  
         - `imbalanced-learn` pour gérer les déséquilibres de classes.
 
-        ### **Résultats attendus**  
-        - **Modèle prédictif robuste** pour évaluer la solvabilité des clients.  
-        - **Visualisation des résultats** : Courbe ROC, arbre de décision, etc.  
-        - **Application pratique** : Une interface simple (par exemple avec **Streamlit**) pour prédire la classe des clients en temps réel.
+       📌 Résultats attendus
+       
+        ✅ Prédictions fiables :
+        Un modèle performant et explicable pour classer les clients.
+        Réduction des risques grâce à une précision élevée.
+        
+       💻 Interface intuitive :
+       Application conviviale pour une utilisation pratique par les décideurs.
+       ⚙️ Transparence des décisions :
+        Visualisation des facteurs influençant les prédictions.
+       Indicateurs de succès
+       Performance des modèles :
+       AUC-ROC supérieur à 0.75.
+       Réduction des faux négatifs pour minimiser les risques.
+       Utilisabilité :
+       Temps de réponse rapide (<1s) pour les prédictions.
+        Simplicité d’utilisation pour des utilisateurs non techniques.
                  """)
 
         st.image("https://wrestlingjunkie.usatoday.com/gcdn/-mm-/b240875430a593c78f8a88c3e24a2d274266415a/c=0-34-580-360/local/-/media/2017/09/17/USATODAY/usatsports/credit-score-over-800_large.jpg?width=579&height=326&fit=crop&format=pjpg&auto=webp")
