@@ -147,18 +147,18 @@ def home():
 
         st.subheader(" ### **2-  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
         st.write(""" 
-             🚗 **Description** : 
+        🚗 **Description** : 
 
-Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
-🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
+    Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
+    🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
             🎯**Objectif du projet**  
             
-L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
+    L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
             🤖**Quest-ce que le **KNN ou k-plus proches voisins****
 
-Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
+    Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
 L'idée principale de ce modèle est que pour une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
 La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix), le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
 Et une tâche de classification (comme déterminer un type), il assigne la classe majoritaire parmi les k voisins.
@@ -246,7 +246,7 @@ Un système performant et intuitif qui combine la puissance d’un modèle d’I
         1. *Solvables* (remboursement probable).  
         2. *Non solvables* (risque de défaut).
 
-🤖 **Modèles utilisés : Logistique & Arbre de décision**
+        🤖 **Modèles utilisés : Logistique & Arbre de décision**
 
 **Régression logistique**
 - Principe :
