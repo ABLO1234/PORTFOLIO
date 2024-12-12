@@ -71,7 +71,7 @@ def home():
     st.write("##")
 
     # About me section
-    st.subheader(" ### **À propos de moi**")
+    st.subheader(" ###**À propos de moi**")
     st.write("""
     - 🧑‍💻 Je suis étudiant en **Master en Economie Quantitative et Calculable**. 
     
