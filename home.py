@@ -153,6 +153,7 @@ Ce projet consistait à concevoir une solution d’Intelligence Artificielle cap
 🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
             🎯**Objectif du projet**  
+            
 L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
             🤖**Quest-ce que le **KNN ou k-plus proches voisins****
@@ -168,7 +169,8 @@ Et une tâche de classification (comme déterminer un type), il assigne la class
 - 🛠️ Non-paramétrique : Pas besoin de supposer une forme spécifique pour les données.
 - 🌐 Flexibilité : Gère les relations complexes entre variables.
 
-            ⚠️**Limitations potentielles**  
+            ⚠️**Limitations potentielles** 
+            
 - 📏 Sensibilité à l’échelle : Exige une normalisation des données.
 - ⏳ Temps de calcul élevé : Recherche des voisins coûteuse pour de grands ensembles de données.
 - 🔊 Sensibilité au bruit : Les données bruitées peuvent affecter les prédictions.
@@ -193,6 +195,7 @@ Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une v
    Le KNN est facile à configurer et ne nécessite pas d'entraînement complexe, ce qui le rend efficace pour des projets de prédiction simples.  
 
 🔧 **Outils et technologies utilisés**  
+
 -🐍 **Python** : Langage principal.
 -📚 **Bibliothèques** : 
   - `scikit-learn` pour l’implémentation de KNN.
@@ -227,6 +230,7 @@ b. **Utilisabilité :**
    - Temps de réponse rapide et facilité d’utilisation de l’application web streamlit.  
 
 🌟**Valeur ajoutée globale :**  
+
 Un système performant et intuitif qui combine la puissance d’un modèle d’IA avec une accessibilité pratique pour répondre à des besoins concrets dans le domaine automobile.                 """)
         st.image("https://blog.vivacar.fr/wp-content/uploads/2017/03/estimer-prix-voiture.webp")
 
