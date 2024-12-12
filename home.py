@@ -83,7 +83,7 @@ def home():
                  
     - 🏂 J'aime jouer aux échecs, lire et surtout la musique 🧗
     
-    - 📫 Comment me joindre ? : +22372228699 / Par mon adrresse Email ci-dessus
+    - 📫 Comment me joindre ? 📞 +22372228699 / Par mon adrresse Email ✉️ ci-dessus
     
     - 🏠 Mali, Bamako
     """)
@@ -147,52 +147,26 @@ def home():
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
 
-        st.subheader("**2-  Prédiction du prix dune voiture avec un modèle KNN**")
+        st.subheader("**2-  Prédiction du prix d'une voiture avec un modèle KNN**")
         st.write(""" 
                  **Description** : 
 
-Le projet consiste à développer un modèle de machine learning utilisant l’algorithme des **k-plus proches voisins (K-Nearest Neighbors, KNN)** pour prédire le prix d’une voiture en fonction de ses caractéristiques.
-En fin, implémenter le modèle dans une application web utilisable par tous.
+Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
+L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
 ### **Objectif du projet**  
-Prédire le prix d’une voiture donnée en utilisant un modèle KNN basé sur les données historiques des ventes automobiles. Le modèle apprend les relations entre les caractéristiques des voitures (par exemple, la marque, l’année, le kilométrage) et leurs prix afin de fournir des prédictions pour de nouvelles observations.
 
-### **Étapes clés**  
+L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
-1. **Collecte des données**  
-   - Source des données : Jeux de données publics ou propriétaires sur les ventes de voitures, collecté et mise à la disposible par Jeffrey C. Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu).  
-   - Variables importantes : 
-     - Caractéristiques : *Marque, modèle, année de fabrication, kilométrage, type de carburant, transmission, puissance du moteur, etc.*
-     - Cible : *Prix de la voiture*.  
+## **Quest-ce que le **KNN ou k-plus proches voisins**
 
-2. **Exploration et préparation des données**  
-   - Nettoyage des données : 
-     - Gestion des valeurs manquantes (par exemple, imputation).
-     - Conversion des variables catégorielles (ex. marque) en variables numériques à l’aide de techniques comme le **One-Hot Encoding**.
-   - Normalisation des variables : Les distances dans le KNN sont influencées par l'échelle des données. Une normalisation est donc essentielle pour les variables continues.  
+Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
+L'idée principale de ce modèle est que our une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
+La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix),le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
+Et une tâche de classification (comme déterminer un type) : il assigne la classe majoritaire parmi les k voisins.
 
-3. **Division des données**  
-   - Séparation en ensembles : *Entraînement (70-80%)* et *test (20-30%)*.  
+### **Les avantages de ce modèle**
 
-4. **Construction du modèle KNN**  
-   - Définir les hyperparamètres : 
-     - *k* : Nombre de voisins (souvent déterminé via validation croisée).
-     - Mesure de distance : Distance euclidienne ou Manhattan.  
-   - Entraîner le modèle en utilisant les données d'entraînement.  
-
-6. **Optimisation des hyperparamètre**  
-   - Les hyperparamètres ont été optimisé à l'aide du GridSearchCV et d'une Validation Croisée.
-
-5. **Évaluation du modèle**  
-   - Utilisation de métriques d’évaluation telles que :
-     - Erreur quadratique moyenne (**RMSE**).
-     - Score R².  
-   - Comparaison des performances pour différents *k* afin de trouver le meilleur paramètre.
-                 
-7. **Prédiction**  
-   - Le modèle prédit le prix d'une voiture en calculant les distances entre la voiture cible et les *k* observations les plus proches dans l'ensemble d'entraînement, puis en prenant la moyenne (ou une autre agrégation) des prix des voisins.  
-
-### **Avantages du KNN dans ce projet**  
 - **Facilité d’implémentation** : KNN est simple à configurer.  
 - **Non-paramétrique** : Pas besoin de supposer une forme spécifique pour la distribution des données.  
 - **Flexibilité** : Gère bien les données avec des relations complexes entre les variables.  
@@ -201,6 +175,25 @@ Prédire le prix d’une voiture donnée en utilisant un modèle KNN basé sur l
 - **Sensibilité à l’échelle des données** : Nécessite une normalisation appropriée.  
 - **Complexité en temps** : Pour de grands ensembles de données, la recherche des *k* voisins peut être coûteuse.  
 - **Sensibilité au bruit** : Les observations bruitées peuvent fausser les prédictions.  
+
+### **Pourquoi le modèle KNN est adapté pour ce projet?**  
+
+Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une voiture pour plusieurs raisons :  
+
+1. **Simplicité et Intuitivité** :  
+   Le KNN compare directement une voiture cible avec des véhicules similaires dans les données historiques, ce qui reflète bien la logique de tarification basée sur des comparaisons.  
+
+2. **Adaptation à des relations complexes** :  
+   Il n'exige pas de supposer une relation linéaire entre les caractéristiques (ex. année, kilométrage) et le prix. Cela le rend flexible pour capturer des relations non linéaires présentes dans les données automobiles.  
+
+3. **Utilisation des données historiques** :  
+   Le KNN se base sur des observations existantes pour fournir une estimation, ce qui est particulièrement utile dans des cas où les données passées sont fiables et représentatives des tendances actuelles.  
+
+4. **Prise en compte des caractéristiques multiples** :  
+   En calculant les distances dans un espace multi-dimensionnel, le KNN considère simultanément plusieurs variables pertinentes (marque, type de carburant, etc.) pour produire une estimation.  
+
+5. **Facilité de mise en œuvre** :  
+   Le KNN est facile à configurer et ne nécessite pas d'entraînement complexe, ce qui le rend efficace pour des projets de prédiction simples.  
 
 ### **Outils et technologies utilisés**  
 - **Python** : Langage principal.
