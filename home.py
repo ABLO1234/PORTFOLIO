@@ -93,7 +93,6 @@ def home():
     
     st.subheader("**Expertise en Analyse et Modélisation de Données**")
     st.write("""
-
     Je suis passionné par la transformation de données brutes en informations stratégiques. Grâce à une approche rigoureuse et scientifique, je maîtrise l'ensemble du cycle d'analyse de données à savoir :  
 
         - **Préparation des données** : Nettoyage et structuration de données imparfaites et/ou complexes pour en garantir la qualité et la fiabilité.  
@@ -104,8 +103,7 @@ def home():
 
     Avec une expertise en outils tels que Python, R, SQL, et une maîtrise des techniques de machine learning (régressions, arbres de décision, clustering, etc.), je suis capable d’apporter une réponse adaptée aux besoins analytiques et décisionnels dans divers contextes.  
 
-    Ma vision : transformer les données en un levier puissant pour orienter les stratégies et accompagner la prise de décision éclairée.  
-
+    Ma vision : transformer les données en un levier puissant pour orienter les stratégies et accompagner la prise de décision éclairée.
 """)
         
     st.subheader("**Langage de programmation**")
