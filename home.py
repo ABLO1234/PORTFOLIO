@@ -128,7 +128,7 @@ Ce texte met en avant votre expertise tout en restant professionnel et adapté �
         label="📄 Vous pouvez télécharger mon CV",
         data=pdf_bytes,
         file_name="TANGARA_ABDOULAYE_CV.pdf",
-        mime="application/pdf",
+        mime="application/pdf", 
     )
 
     st.write("##")
