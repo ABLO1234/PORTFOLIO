@@ -71,11 +71,11 @@ def home():
     st.write("##")
 
     # About me section
-    st.subheader("**À propos de moi**")
+    st.subheader(" ### **À propos de moi**")
     st.write("""
     - 🧑‍💻 Je suis étudiant en **Master en Economie Quantitative et Calculable**. 
     
-        Ce programme de Master combine des connaissances approfondies en théorie économique avec des compétences avancées en modélisation quantitative et calcul informatique.
+        Mon programme de Master combine des connaissances approfondies en théorie économique avec des compétences avancées en modélisation quantitative et calcul informatique.
         Il me permettra de développer des compétences solides en microéconomie, macroéconomie, économétrie, statistiques, optimisation, et programmation (Python, R, STATA, EVIEWS). 
         j'y apprends à construire, estimer et simuler des modèles économiques en s’appuyant sur des techniques telles que l’analyse de séries temporelles, les méthodes bayésiennes, ou encore le machine learning.
     
@@ -89,20 +89,26 @@ def home():
     """)
     st.write("--")
     
-    st.subheader("**Mes compétences**")
+    st.subheader(" ### **Mes compétences**")
     
-    st.subheader("**Logiciel**")
+    st.subheader("### **Expertise en Analyse et Modélisation de Données**")
     st.write("""
-        - IBM SPSS
-        - Power Query
-        - pgAdmin4 (PostGreSql)
-        - STATA
-        - EVIEWS
-        - CSPro
-        - KOBOTOOLBOX
-        - NestarPublisher
-        - Jupyter NoteBook
-        - VS code """)
+
+    Je suis passionné par la transformation de données brutes en informations stratégiques. Grâce à une approche rigoureuse et scientifique, je maîtrise l'ensemble du cycle d'analyse de données à savoir :  
+
+        - **Préparation des données** : Nettoyage et structuration de données imparfaites et/ou complexes pour en garantir la qualité et la fiabilité.  
+        - **Analyse et exploration** : Identification des tendances, des schémas et des insights clés à travers des outils statistiques avancés et des techniques de visualisation.  
+        - **Modélisation** : Développement de modèles de machine learning adaptés à divers domaines (finance, marketing, énergie, etc.), en optimisant les performances pour répondre à des problématiques spécifiques.  
+
+    Je suis également compétent dans la conduite d’enquêtes et d’études scientifiques, en assurant leur conception méthodologique, leur réalisation sur le terrain et leur analyse approfondie. Ces capacités me permettent de proposer des solutions basées sur des données concrètes et d'apporter une valeur ajoutée stratégique aux projets sur lesquels je travaille.  
+
+    Avec une expertise en outils tels que Python, R, SQL, et une maîtrise des techniques de machine learning (régressions, arbres de décision, clustering, etc.), je suis capable d’apporter une réponse adaptée aux besoins analytiques et décisionnels dans divers contextes.  
+
+    Ma vision : transformer les données en un levier puissant pour orienter les stratégies et accompagner la prise de décision éclairée.  
+
+--- 
+
+Ce texte met en avant votre expertise tout en restant professionnel et adapté à un portfolio. Qu'en pensez-vous ?""")
         
     st.subheader("**Langage de programmation**")
     st.write("""
