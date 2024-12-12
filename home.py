@@ -22,7 +22,6 @@ def home():
     with open("assets/TANGARA_ABDOULAYE_CV.pdf", "rb") as pdf_file:
         pdf_bytes = pdf_file.read()
 
-    
     # Top title
     st.write(f"""<div class="title"><strong>Hello ! Je m'appelle </strong> Abdoulaye Tangara👋</div>""", unsafe_allow_html=True)
 
@@ -153,29 +152,29 @@ def home():
 Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
 L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
-### **Objectif du projet**  
+**Objectif du projet**  
 
 L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
-## **Quest-ce que le **KNN ou k-plus proches voisins**
+**Quest-ce que le **KNN ou k-plus proches voisins**
 
 Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
-L'idée principale de ce modèle est que our une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
-La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix),le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
-Et une tâche de classification (comme déterminer un type) : il assigne la classe majoritaire parmi les k voisins.
+L'idée principale de ce modèle est que pour une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
+La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix), le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
+Et une tâche de classification (comme déterminer un type), il assigne la classe majoritaire parmi les k voisins.
 
-### **Les avantages de ce modèle**
+**Les avantages de ce modèle**
 
 - **Facilité d’implémentation** : KNN est simple à configurer.  
 - **Non-paramétrique** : Pas besoin de supposer une forme spécifique pour la distribution des données.  
 - **Flexibilité** : Gère bien les données avec des relations complexes entre les variables.  
 
-### **Limitations potentielles**  
+**Limitations potentielles**  
 - **Sensibilité à l’échelle des données** : Nécessite une normalisation appropriée.  
 - **Complexité en temps** : Pour de grands ensembles de données, la recherche des *k* voisins peut être coûteuse.  
 - **Sensibilité au bruit** : Les observations bruitées peuvent fausser les prédictions.  
 
-### **Pourquoi le modèle KNN est adapté pour ce projet?**  
+**Pourquoi le modèle KNN est adapté pour ce projet?**  
 
 Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une voiture pour plusieurs raisons :  
 
@@ -194,16 +193,16 @@ Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une v
 5. **Facilité de mise en œuvre** :  
    Le KNN est facile à configurer et ne nécessite pas d'entraînement complexe, ce qui le rend efficace pour des projets de prédiction simples.  
 
-### **Outils et technologies utilisés**  
+**Outils et technologies utilisés**  
 - **Python** : Langage principal.
 - **Bibliothèques** : 
   - `scikit-learn` pour l’implémentation de KNN.
   - `pandas` et `numpy` pour la manipulation des données.
   - `matplotlib` et `seaborn` pour les visualisations.  
 
-### **Résultat attendu**  
+**Résultat attendu**  
 
-### **Résultats fonctionnels :**  
+**Résultats fonctionnels :**  
 a. **Prédictions précises :**  
    - Fournir une estimation fiable du prix des voitures en fonction de leurs caractéristiques.  
    - Réduire l’erreur entre les prix prédits et les prix réels, mesurée par des métriques comme l’erreur quadratique moyenne (**RMSE**) ou le coefficient de détermination (**R²**).  
@@ -214,21 +213,21 @@ b. **Application interactive :**
 c. **Personnalisation :**  
    - Capacité d’ajuster certains paramètres (par exemple, le nombre de voisins *k*) ou d’explorer les données utilisées pour les prédictions.  
 
-### **Impact pratique :**  
+**Impact pratique :**  
 a. **Prise de décision facilitée :**  
    - Aider les particuliers et les professionnels (vendeurs, acheteurs, concessionnaires) à évaluer rapidement et précisément la valeur d’un véhicule.  
 
 b. **Transparence :**  
    - Mettre en avant les voisins considérés pour chaque prédiction, offrant une compréhension claire de l’estimation.  
 
-### **Indicateurs de succès :**  
+**Indicateurs de succès :**  
 a. **Précision :**  
    - Une **RMSE** faible et un score **R²** élevé sur l’ensemble de test.  
 
 b. **Utilisabilité :**  
-   - Temps de réponse rapide et facilité d’utilisation de l’application web.  
+   - Temps de réponse rapide et facilité d’utilisation de l’application web streamlit.  
 
-### **Valeur ajoutée globale :**  
+**Valeur ajoutée globale :**  
 Un système performant et intuitif qui combine la puissance d’un modèle d’IA avec une accessibilité pratique pour répondre à des besoins concrets dans le domaine automobile.                 """)
         st.image("https://blog.vivacar.fr/wp-content/uploads/2017/03/estimer-prix-voiture.webp")
 
