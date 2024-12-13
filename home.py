@@ -70,6 +70,7 @@ def home():
     st.write("##")
 
     # About me section
+    st.subheader("⚠️ **À la recherche d'opportunités stimulantes !** ⚠️)
     st.subheader("**À propos de moi** 🧑‍💼")
     st.write("""
     - 🎓 Je suis étudiant en **Master en Economie Quantitative et Calculable**. 
@@ -85,6 +86,7 @@ def home():
     - 📫 Comment me joindre ? 📞 +22372228699 / Par mon adrresse Email ✉️ ci-dessus
     
     - 🏠 Mali, Bamako
+    ⚠️ Je suis prêt à relever des défis et à apporter des solutions innovantes. Parlons-en !
     """)
     st.write("--")
     
