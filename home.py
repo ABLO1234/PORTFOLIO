@@ -292,12 +292,15 @@ def home():
         
        💻 Interface intuitive :
        Application conviviale pour une utilisation pratique par les décideurs.
+       
        ⚙️ Transparence des décisions :
-        Visualisation des facteurs influençant les prédictions.
+       Visualisation des facteurs influençant les prédictions.
        Indicateurs de succès
+       
        Performance des modèles :
        AUC-ROC supérieur à 0.75.
        Réduction des faux négatifs pour minimiser les risques.
+       
        Utilisabilité :
        Temps de réponse rapide (<1s) pour les prédictions.
         Simplicité d’utilisation pour des utilisateurs non techniques.
