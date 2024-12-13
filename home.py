@@ -152,11 +152,11 @@ def home():
         Ce projet consistait à concevoir une solution d’Intelligence Artificielle capable de prédire le prix d’une voiture en fonction de ses caractéristiques (marque, année, kilométrage, etc.). 
         🔗L'IA a été intégrée dans une application web interactive, accessible à tous, pour répondre aux besoins des utilisateurs de manière simple et efficace
                  
-            🎯**Objectif du projet**  
+        🎯**Objectif du projet**  
             
         L'objectif du projet est de fournir une estimation précise et fiable du prix d'une voiture en utilisant une solution d'Intelligence Artificielle basée sur un modèle classification **KNN**, afin d'aider les utilisateurs (particuliers ou professionnels) à évaluer la valeur d'un véhicule en fonction de ses caractéristiques.
 
-            🤖**Quest-ce que le **KNN ou k-plus proches voisins****
+        🤖**Quest-ce que le **KNN ou k-plus proches voisins****
 
         Il s'agit d'un algorithme d’apprentissage supervisé utilisé pour des tâches de classification et de régression. Il est basé sur le principe de proximité dans un espace multi-dimensionnel.
         L'idée principale de ce modèle est que pour une nouvelle donnée (par exemple, une voiture dont on veut prédire le prix), il identifie les k données les plus proches dans l’ensemble d’apprentissage (les "voisins").
@@ -175,7 +175,7 @@ def home():
         - ⏳ Temps de calcul élevé : Recherche des voisins coûteuse pour de grands ensembles de données.
         - 🔊 Sensibilité au bruit : Les données bruitées peuvent affecter les prédictions.
 
-            💡**Pourquoi le modèle KNN est adapté pour ce projet?**  
+        💡**Pourquoi le modèle KNN est adapté pour ce projet?**  
 
         Le KNN (k-plus proches voisins) est adapté à cette prédiction du prix d'une voiture pour plusieurs raisons :  
 
@@ -242,35 +242,43 @@ def home():
         st.write("""
         Ce projet vise à développer un système de **crédit scoring** pour évaluer la probabilité qu’un client rembourse ou non son crédit, en utilisant deux modèles de machine learning : la **régression logistique** et l’**arbre de décision**.
 
-        🎯 **Objectif du projet**  
+        🎯**Objectif du projet**  
+        
         Fournir un outil fiable qui aide les institutions financières à prendre des décisions éclairées sur l'octroi de crédits, en classant les clients en deux catégories :  
         1. *Solvables* (remboursement probable).  
         2. *Non solvables* (risque de défaut).
 
-        🤖 **Modèles utilisés : Logistique & Arbre de décision**
+        🤖**Modèles utilisés : Logistique & Arbre de décision**
 
-**Régression logistique**
-- Principe :
+        **Régression logistique**
+        - Principe :
            Modèle statistique qui prédit la probabilité d’appartenance à une classe (0 ou 1) en utilisant une fonction logistique.
-- Avantages :
+           
+        - Avantages :
            Interprétabilité des coefficients (chaque variable montre son effet sur la probabilité de défaut). Performant pour des relations linéaires entre les caractéristiques et la cible.
-- Limites :
-Sensibilité aux valeurs extrêmes.
-Nécessite des données bien préparées et standardisées.
+           
+        - Limites :
+        Sensibilité aux valeurs extrêmes.
+        Nécessite des données bien préparées et standardisées.
 
-**Arbre de décision**
-- Principe :
+        **Arbre de décision**
+        
+        - Principe :
           Modèle basé sur une structure arborescente qui applique des règles décisionnelles simples pour classer les données.
-- Avantages :
-Facile à interpréter grâce à des visualisations (par ex., seuils de revenu ou ratio dette/revenu). Capte les relations non linéaires et les interactions entre les variables.
-- Limites :
-Peut sur-apprendre si non régularisé.
-Sensible aux données bruitées.
+          
+        - Avantages :
+        Facile à interpréter grâce à des visualisations (par ex., seuils de revenu ou ratio dette/revenu). Capte les relations non linéaires et les interactions entre les variables.
+        
+        - Limites :
+        Peut sur-apprendre si non régularisé.
+        Sensible aux données bruitées.
 
 
         🔧 **Outils et technologies utilisés**  
+        
         - **Python** : Langage principal.  
-        - Bibliothèques :  
+        
+        - **Bibliothèques** :  
         - `pandas` et `numpy` pour la manipulation des données.  
         - `scikit-learn` pour les modèles de machine learning.  
         - `matplotlib` et `seaborn` pour les visualisations.  
