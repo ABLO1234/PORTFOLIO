@@ -89,7 +89,7 @@ def home():
     
     ⚠️ **Je suis prêt à relever des défis et à apporter des solutions innovantes. Parlons-en !**
     """)
-    st.write("--")
+    st.write("---")
     
     st.subheader("**Mes compétences**")
     
