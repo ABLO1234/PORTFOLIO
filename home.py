@@ -134,7 +134,7 @@ def home():
 
 
     with tabs[0]:
-        st.subheader("### 1-  **Optimisation de portefeuille d'investissement (Projet en cours)**")
+        st.subheader("1-  **Optimisation de portefeuille d'investissement (Projet en cours)**")
         st.write(""" 
                  **Description** : 
         Il s'agit de l'application de techniques de machine learning à la finance.
@@ -163,7 +163,7 @@ def home():
         La proximité étant mesurée à l’aide de distances, comme la distance euclidienne et autre pour faire une prédiction, d'une tâche de régression (comme prédire un prix), le KNN calcule une moyenne (ou une autre agrégation) des valeurs cibles des k voisins les plus proches.
         Et une tâche de classification (comme déterminer un type), il assigne la classe majoritaire parmi les k voisins.
 
-            ✨**Les avantages de ce modèle**
+        ✨**Les avantages de ce modèle**
 
         - 📈 Facilité d’implémentation : Simple à configurer.
         - 🛠️ Non-paramétrique : Pas besoin de supposer une forme spécifique pour les données.
