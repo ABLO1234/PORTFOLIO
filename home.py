@@ -148,7 +148,7 @@ def home():
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.write("---")
 
-        st.subheader(" ### **2-  Prédiction du prix d'une voiture avec un modèle KNN** 💻")
+        st.subheader("2-  **Prédiction du prix d'une voiture avec un modèle KNN** 💻")
         st.write(""" 
         🚗 **Description** : 
 
