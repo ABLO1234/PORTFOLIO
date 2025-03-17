@@ -183,7 +183,7 @@ def home():
         Ce projet m’a permis d’approfondir ma maîtrise des **modèles financiers**, de l’**analyse des marchés boursiers** et du **développement d’applications interactives en Python**. Il constitue une base solide pour des recherches plus avancées en **gestion d’actifs et en finance quantitative**.  
                  """)
                  
-        st.markdown("<h1 style='text-align: center; color: red;'>📄 Cliquez pour télécharger le projet</h1>", 
+        st.write("<h1 style='text-align: center; color: red;'>📄 Cliquez pour télécharger le projet</h1>", 
                     unsafe_allow_html=True)
         
         st.download_button(
