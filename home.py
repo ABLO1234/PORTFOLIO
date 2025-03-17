@@ -73,7 +73,7 @@ def home():
     st.write("##")
 
     # About me section
-    st.markdown("<h1 style='text-align: center; color: blue;'>⚠️À la recherche d'opportunités stimulantes !⚠️</h1>",
+    st.markdown("<h1 style='text-align: center; color: red;'>⚠️À la recherche d'opportunités stimulantes !⚠️</h1>",
     unsafe_allow_html=True)
     st.subheader("**À propos de moi** 🧑‍💼")
     st.write("""
