@@ -138,12 +138,49 @@ def home():
 
 
     with tabs[0]:
-        st.subheader("1-  **Optimisation de portefeuille d'investissement (Projet en cours)**")
+        st.subheader("1-  **Projet d’Optimisation de Portefeuille avec le Modèle de Markowitz**")
         st.write(""" 
                  **Description** : 
-        Il s'agit de l'application de techniques de machine learning à la finance.
-        L'objectif du projet est de développer une application web destinée aux investisseurs, leur permettant, 
-        à partir des caractéristiques de leur portefeuille, d'optimiser ce dernier en minimisant les risques tout en maximisant les gains. 
+     
+        Dans le cadre de mon apprentissage en **finance quantitative** et en **gestion des risques**, j’ai développé un projet visant à optimiser un portefeuille d’investissement en utilisant le **modèle de Markowitz**. 
+        L’objectif était d’appliquer les concepts théoriques de la gestion de portefeuille moderne pour construire un portefeuille efficient, minimisant le risque tout en maximisant le rendement attendu.  
+        
+        🎯 **Objectifs du projet**  
+         
+        - Collecter et analyser des données boursières réelles pour modéliser un portefeuille.  
+        - Implémenter le **modèle de Markowitz** pour optimiser le couple rendement-risque.  
+        - Construire une **application interactive** avec **Streamlit** pour visualiser l’évolution du portefeuille.  
+        - Automatiser le **rééquilibrage mensuel** du portefeuille et envoyer des notifications sur la performance des actifs.  
+
+         **Méthodologie et outils**  
+         
+        1. **Collecte de données financières**
+        
+           - Extraction des prix de clôture des 40 plus grandes capitalisations du **CAC 40** via **Yahoo Finance**.  
+           - Nettoyage des données et analyse exploratoire (calcul des rendements, volatilité, corrélation entre actifs).  
+        
+        2. **Optimisation du portefeuille**  
+        
+           - Calcul des rendements moyens et de la **matrice de covariance** des actifs.  
+           - Minimisation de la **volatilité** pour construire un portefeuille efficient avec **SciPy Optimize**.  
+           - Génération de la **frontière efficiente** et analyse des ratios de Sharpe.  
+        
+        3. **Développement de l’application Streamlit**  
+        
+           - Interface permettant d’afficher les actifs sélectionnés et leurs performances.  
+           - Graphiques interactifs pour visualiser la volatilité, la rentabilité et la diversification du portefeuille.  
+        
+        4. **Automatisation et suivi du portefeuille**  
+        
+           - Rééquilibrage automatique des allocations tous les **30 jours**.  
+           - Envoi d’un rapport par **e-mail** contenant le rendement, la volatilité et le ratio de Sharpe mis à jour.  
+
+         **Résultats**  
+        - **Portefeuille optimal** avec un rendement annuel de **12.92%**, une volatilité de **8.17%** et un **ratio de Sharpe de 1.34**.  
+        - Sélection d’actifs diversifiés incluant **Danone, Orange, Engie, TotalEnergies, Michelin, Publicis, Legrand**, etc.  
+        - Mise en place d’une **automatisation complète** pour assurer un suivi continu du portefeuille et ajuster les allocations en fonction des conditions du marché.  
+        
+        Ce projet m’a permis d’approfondir ma maîtrise des **modèles financiers**, de l’**analyse des marchés boursiers** et du **développement d’applications interactives en Python**. Il constitue une base solide pour des recherches plus avancées en **gestion d’actifs et en finance quantitative**.  
                  """)
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
         st.download_button(
