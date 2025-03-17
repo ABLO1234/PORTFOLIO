@@ -185,7 +185,7 @@ def home():
                  
         st.download_button(
         label= st.write("<h1 style='text-align: center; color: red;'>📄 Cliquez pour télécharger le projet</h1>",
-    unsafe_allow_html=True),
+        unsafe_allow_html=True),
         data=pdf_bytes,
         file_name="financalmodeling.pdf",
         mime="application/pdf", 
