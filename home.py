@@ -72,7 +72,7 @@ def home():
 
     # About me section
     st.subheader("<h1 style='text-align: center;'>⚠️ **À la recherche d'opportunités stimulantes !** ⚠️</h1>",
-    unsafe_allow_html=True")
+    unsafe_allow_html=True)
     st.subheader("**À propos de moi** 🧑‍💼")
     st.write("""
     - 🎓 Je suis étudiant en **Master en Economie Quantitative et Calculable**. 
