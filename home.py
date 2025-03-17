@@ -144,10 +144,14 @@ def home():
         Il s'agit de l'application de techniques de machine learning à la finance.
         L'objectif du projet est de développer une application web destinée aux investisseurs, leur permettant, 
         à partir des caractéristiques de leur portefeuille, d'optimiser ce dernier en minimisant les risques tout en maximisant les gains. 
-                
                  """)
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
-
+        st.download_button(
+        label="📄 Cliquez pour télécharger le resultat du projet",
+        data=pdf_bytes,
+        file_name="financalmodeling.pdf",
+        mime="application/pdf", 
+        )
         st.write("---")
 
         st.subheader("2-  **Prédiction du prix d'une voiture avec un modèle KNN** 💻")
