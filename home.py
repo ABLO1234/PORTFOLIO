@@ -8,6 +8,7 @@ def home():
     st.set_page_config(
         page_title="Le portfolio d'Abdoulaye Tangara",
         page_icon="💼",
+        layout="wide"
     )
 
     # CSS styles file
