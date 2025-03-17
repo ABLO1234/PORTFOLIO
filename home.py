@@ -112,14 +112,10 @@ def home():
     Ma vision 🔍: **Transformer les données en un levier puissant pour orienter les stratégies et accompagner la prise de décision éclairée**.
 """)
         
-    st.subheader("**Langage de programmation**")
+    st.subheader("**Gestion de projet et Suivi-évaluation de projet**")
     st.write("""
-        - Python
-        - SQL
-        - STATA
-        - EVIEWS
-        - R
-        - SPSS LANGUAGE
+    🔹 Compétence incluant la planification, l’exécution et la clôture de projets, tout en assurant le respect des délais, des budgets et des objectifs de qualité.
+    🔹 Capacité à concevoir et mettre en œuvre des systèmes de suivi et d’évaluation pour mesurer l’efficacité des projets et programmes, en utilisant des indicateurs de performance et des méthodes d’analyse de données
     """)
     
     st.write("**Mon CV 😊**")
@@ -150,6 +146,12 @@ def home():
                 
                  """)
         st.image("https://th.bing.com/th/id/R.29c69915712f9b4ab4ab41b1e1ad0ffa?rik=efeNiqWLFZAqYg&riu=http%3a%2f%2fwww.experts-comptables-fr.org%2fwp-content%2fuploads%2f2017%2f01%2finvestir.jpg&ehk=Axn7KZyNE%2fdSHpHUsLHWyvIGnbNKHmqylDmwcSE%2fdUU%3d&risl=&pid=ImgRaw&r=0")
+            st.download_button(
+        label="Cliquez pour télécharger le projet",
+        data=pdf_bytes,
+        file_name="TANGARA_ABDOULAYE_CV.pdf",
+        mime="application/pdf", 
+    )
         st.write("---")
 
         st.subheader("2-  **Prédiction du prix d'une voiture avec un modèle KNN** 💻")
