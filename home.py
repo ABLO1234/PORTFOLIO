@@ -50,7 +50,7 @@ def home():
     # """, unsafe_allow_html=True)
 
     # Subtitle
-    st.write(f"""<div class="subtitle" style="text-align: center;">Étudiant en Master Économie Quantitative et Calculable</div>""",
+    st.write(f"""<div class="subtitle" style="text-align: center;">Étudiant en Master en Économie Quantitative et Calculable</div>""",
     unsafe_allow_html=True
     )
 
@@ -87,7 +87,7 @@ def home():
                  
     - 🏂 J'aime jouer aux échecs, lire et surtout la musique 🧗
     
-    - 📫 Comment me joindre ? 📞 +22372228699 / Par mon adrresse Email ✉️ ci-dessus
+    - 📫 N° téléphone 📞 +22372228699 / 65697753
     
     - 🏠 Mali, Bamako
     
@@ -115,6 +115,7 @@ def home():
     st.subheader("**Gestion de projet et Suivi-évaluation de projet**")
     st.write("""
     🔹 Compétence incluant la planification, l’exécution et la clôture de projets, tout en assurant le respect des délais, des budgets et des objectifs de qualité.
+    
     🔹 Capacité à concevoir et mettre en œuvre des systèmes de suivi et d’évaluation pour mesurer l’efficacité des projets et programmes, en utilisant des indicateurs de performance et des méthodes d’analyse de données
     """)
     
